@@ -1,0 +1,20 @@
+{
+    "name": "vvseesee/heap",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vvseesee\\Heap\\": "src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vvseesee\\Heap\\HeapServiceProvider"
+            ],
+            "aliases": {
+                "Heap": "Vvseesee\\Heap\\Facades\\Heap"
+            }
+        }
+    }
+}
